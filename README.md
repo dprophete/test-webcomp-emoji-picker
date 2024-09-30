@@ -9,4 +9,3 @@ bundles the compiled output with the manifest and puts the zip in `/dist`
 ```shell
 npm run bundle
 ```
-# test-webcomp-emoji-picker

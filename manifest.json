@@ -2,7 +2,6 @@
     "tag": "emoji-picker",
     "version": "1.0.0",
     "description": "Emoji Picker",
-    "module": true,
     "icon": "emoticon",
     "ins": [],
     "events": [
@@ -10,6 +9,5 @@
             "name": "emoji-click",
             "payload": {}
         }
-    ],
-    "url": "https://raw.githubusercontent.com/dprophete/test-webcomps/refs/heads/main/dist/emoji-picker.js"
+    ]
 }
