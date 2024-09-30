@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite + Lit + TS</title>
+        <script type="module" src="/src/emoji-picker.ts"></script>
+        <style>
+            body {
+                margin: 10px;
+            }
+
+            emoji-picker {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <emoji-picker></emoji-picker>
+
+        <script>
+            const picker = document.querySelector("emoji-picker");
+            picker.addEventListener("emoji-click", (evt) => {
+                console.log(evt.detail);
+            });
+        </script>
+    </body>
+</html>
